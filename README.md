@@ -4,10 +4,10 @@
 Verify basic detection and output behavior of the Keyence LR-TB5000 laser sensor by connecting it to a 24 VDC power supply and observing its outputs with an oscilloscope.
 
 ## Connection Setup:
-- Brown wire (Pin 1) → +24 VDC (Power Supply Positive)
-- Blue wire (Pin 3) → 0 VDC (Power Supply Ground)
-- Black wire (Pin 4) → Connected to Oscilloscope Channel 1 (Out1)
-- White wire (Pin 2) → Connected to Oscilloscope Channel 2 (Out2)
+- Brown wire → +24 VDC (Power Supply Positive)
+- Blue wire → 0 VDC (Power Supply Ground)
+- Black wire → Connected to Oscilloscope Channel 1 (Out1)
+- White wire → Connected to Oscilloscope Channel 2 (Out2)
 
 ## Observations:
 - Upon powering on, the sensor emitted a red laser beam.
