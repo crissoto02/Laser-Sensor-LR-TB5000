@@ -1,4 +1,4 @@
-# LR-TB5000 Laser Sensor Basic Test Report
+# LR-TB5000 Laser Sensor Basic Test
 
 ## Test Objective:
 Verify basic detection and output behavior of the Keyence LR-TB5000 laser sensor by connecting it to a 24 VDC power supply and observing its outputs with an oscilloscope.
@@ -35,3 +35,10 @@ Verify basic detection and output behavior of the Keyence LR-TB5000 laser sensor
 ## Notes:
 - Power supply used: 24 VDC regulated, 2.2 A capacity.
 - No PLC was connected during this test. Outputs were measured directly via oscilloscope.
+
+## Next Step
+Integrate the LR-TB5000 sensor into PLC programming using Siemens S7-1200:
+- Connect Out1 and/or Out2 to the PLC’s digital input terminals.
+- Configure input tags in TIA Portal to monitor sensor outputs.
+- Program logical operations based on object detection using Ladder or FBD programming.
+- Validate behavior through real-time monitoring in TIA Portal.
